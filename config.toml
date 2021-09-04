@@ -1,0 +1,8 @@
+
+base_url = "https://simia.tech"
+title = "simia.tech"
+description = "Clean code software"
+
+[markdown]
+external_links_target_blank = true
+highlight_code = false

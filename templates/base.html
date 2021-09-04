@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="referrer" content="no-referrer">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <meta property="og:title" content="{{ config.title }}" />
+        <meta property="og:description" content="{{ config.description }}">
+        <meta property="og:site_name" content="{{ config.title }}" />
+        <meta property="og:url" content="{{ config.base_url }}" />
+
+        <meta name="twitter:title" content="{{ config.title }}" />
+        <meta name="twitter:description" content="{{ config.description | truncate(length=200) }}">
+
+        <meta name="description" content="{{ config.description }}">
+
+        <title>{{ config.title }}</title>
+
+        <link rel="shortcut icon" href="/image/favicon.ico">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/style/normalize.css">
+        <link rel="stylesheet" href="/style/index.css">
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="/">
+                <img src="/image/logo.svg" />
+            </a>
+        </header>
+        <main>
+            {% block main %}
+            {% endblock main %}
+        </main>
+        <footer>
+            <a href="/impress">Impress</a>
+        </footer>
+    </body>
+</html>

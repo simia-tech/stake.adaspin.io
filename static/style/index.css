@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Gotham Light";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Gotham Light"), local("GothamLight"), url(/font/gotham-light-webfont.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    font-style: bold;
+    font-weight: 400;
+    src: local("Gotham Bold"), local("GothamBold"), url(/font/gotham-bold-webfont.woff) format("woff");
+}
+
+body {
+    font-family: "Gotham Light";
+    font-size: 1.2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4229b9;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    display: inline-block;
+    margin: 2em 0;
+    width: 477px;
+    height: 118px;
+}
+
+main {
+    display: inline-block;
+    max-width: 920px;
+    min-height: 400px;
+    padding: 1em 1em 1.6em 1em;
+    margin: 0 1em;
+
+    border-top: 1px solid #607079;
+    border-bottom: 1px solid #607079;
+    background-image: -webkit-linear-gradient(#607079 0%, transparent 30%, transparent 70% #607079 100%);
+    background-image:
+        -moz-linear-gradient(#607079 0%, transparent 30%, transparent 70%, #607079 100%),
+        -moz-linear-gradient(#607079 0%, transparent 30%, transparent 70%, #607079 100%);
+    background-image:
+        -o-linear-gradient(#607079 0%, transparent 30%, transparent 70%, #607079 100%),
+        -o-linear-gradient(#607079 0%, transparent 30%, transparent 70%, #607079 100%);
+    background-image:
+        linear-gradient(#607079 0%, transparent 30%, transparent 70%, #607079 100%),
+        linear-gradient(#607079 0%, transparent 30%, transparent 70%, #607079 100%);
+    -moz-background-size: 1px 100%;
+    background-size: 1px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+}
+
+main > h1 {
+    font-family: "Gotham Bold", "Cuprum", sans-serif;
+    font-size: 1.4rem;
+    margin: 1em 0;
+}
+
+main > h2 {
+    font-family: "Gotham Bold", "Cuprum", sans-serif;
+    font-size: 1.2rem;
+    margin: 1em 0;
+}
+
+main > p {
+    text-align: justify;
+    margin: 2em 0;
+}
+
+main > blockquote > p {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+main > ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+main > ul > li {
+    display: inline-block;
+    text-align: justify;
+    padding: 0.8em;
+    margin: 0.8em;
+}
+
+footer {
+    padding: 1.2em;
+}
