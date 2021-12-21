@@ -1,7 +1,7 @@
 
-base_url = "https://simia.tech"
-title = "simia.tech"
-description = "Clean code software"
+base_url = "https://stake.simia.one"
+title = "stake.simia.one"
+description = "simia one stake pool"
 
 [markdown]
 external_links_target_blank = true

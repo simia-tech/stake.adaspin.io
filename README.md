@@ -1,2 +1,3 @@
 # website
-Website of simia.tech
+
+Website of stake.simia.one
