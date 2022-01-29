@@ -1,3 +1,3 @@
 # website
 
-Website of stake.simia.one
+Website of stake.adaspin.io

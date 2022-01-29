@@ -1,7 +1,7 @@
 
-base_url = "https://stake.simia.one"
-title = "simia one stake pool"
-description = "green cardano stake pool with 0% margin"
+base_url = "https://stake.adaspin.io"
+title = "AdaSpin Stake Pool"
+description = "Green cardano stake pool with minimal fees"
 
 [markdown]
 external_links_target_blank = true

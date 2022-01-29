@@ -1,5 +1,5 @@
 +++
-title = "simia one stake pool"
+title = "AdaSpin Stake Pool"
 +++
 
 ## cardano stake pool
