@@ -1,0 +1,19 @@
+{
+    "info": {
+        "social": {
+            "github_handle": "simia-tech"
+        },
+        "company": {
+            "name": "simia.tech GmbH",
+            "city": "Berlin",
+            "country": "Germany",
+            "vat_id": "DE308384657"
+        },
+        "about": {
+            "company": "Clean code software development"
+        },
+    	"my-pool-ids": {
+        	"0": "d9931174a5260bf4ce6d94b3097fbaa0c4567e6a293ce91aa18c78fc"
+    	}
+    }
+}
