@@ -2,5 +2,6 @@
     "name": "AdaSpin Stake Pool",
     "description": "Green cardano stake pool with minimal fees",
     "ticker": "SPIN",
-    "homepage": "https://stake.adaspin.io"
+    "homepage": "https://stake.adaspin.io",
+    "extended": "https://stake.adaspin.io/pool-extended.json"
 }
