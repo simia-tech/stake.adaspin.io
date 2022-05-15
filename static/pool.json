@@ -3,5 +3,6 @@
     "description": "Green cardano stake pool with minimal fees",
     "ticker": "SPIN",
     "homepage": "https://stake.adaspin.io",
-    "extended": "https://stake.adaspin.io/pool-extended.json"
+    "extended": "https://stake.adaspin.io/pool-extended.json",
+    "adaspinCoode": "4RDQevqy6r_8gXdgXlu0CgxvUSdSBJwyqWBZ746xxz0"
 }
